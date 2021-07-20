@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="true_settings"
+        app:title="Settings veri">
+
+        <SwitchPreferenceCompat
+            app:key="scale_image"
+            app:title="Scala su tutto lo schermo" />
+        <Preference
+            app:key="feedback"
+            app:summary="Chiavacelo in culo a mammeta"
+            app:title="Quello che devi fare" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="false_settings"
+        app:title="Settings falsi">
+
+        <SwitchPreferenceCompat
+            app:key="peppe"
+            app:title="Niente, tuo padre" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
